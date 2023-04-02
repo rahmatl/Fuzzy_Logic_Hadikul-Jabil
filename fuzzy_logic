@@ -146,7 +146,7 @@ while True:
         k = ((z - a) / 2)
         y = (a + k)
         e = 2.7182
-        g = e**(-k*(y - x)**2)
+       g = e**(-0.5*((y - x)/k)**2)
         print("µ(g) = {:.2f}".format(g))
 
     #opsi penutup#
